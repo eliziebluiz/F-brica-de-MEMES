@@ -1,0 +1,57 @@
+body{
+    background-image: url(b.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+h1{
+    color:gold;
+    text-align: center;
+}
+h2{
+    color:gold;
+}
+canvas{
+    width: 550px;
+    height: 400px;
+}
+#titulo{
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+#resultado{
+    position:static;
+    float: right;
+}
+#imagem{
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    border-radius: 20px;
+}
+#down{
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+#gerar{
+    width: 110px;
+    height: 50px;
+    background-color: gold;
+    color:black;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+input{
+    border-radius: 5px;
+}
+form {
+    width: 550px; 
+    text-align: center;
+} 
+#ftbtn{
+    height: 40px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fabrica de Memes</title>
+    <link rel="icon" href="icone.png" type="imagem/gif"> 
+    <link rel="stylesheet" href="meme.css"></link>
+</head>
+<body>
+    <h1>Fábrica de Memes</h1>
+    <div id="resultado">
+            <h2>Resultado:</h2>
+            <canvas id="canvas"></canvas>
+    </div>
+    <div id="fabrica">
+        <form action="">
+            <h2>Preencha os campos para gerar seu MEME abaixo!</h2>
+            <input type="text" placeholder="Titulo do MEME" id="titulo">
+            <br>
+            <br>
+            <input type="number" placeholder="Posição Eixo X(px)" id="positiontx">
+            <input type="number" placeholder="Posição Eixo Y(px)" id="positionty">
+            <input type="number" placeholder="Tamanho Fonte(pt)" id="fontt">
+            <br>
+            <br>
+            <input id="imagem" type="link" placeholder="Imagem (Caminho da imagem)">
+            <br>
+            <br>
+            <input id="down" type="text" placeholder="Rodapé do MEME">
+            <br>
+            <br>
+            <input type="number" placeholder="Posição Eixo X(px)" id="positionrx">
+            <input type="number" placeholder="Posição Eixo Y(px)" id="positionry">
+            <input type="number" placeholder="Tamanho Fonte(pt)" id="fontr">
+            <br>
+            <br>
+            <button id="gerar" type="button" onclick="desenhar();" >GERAR MEME <img id="ftbtn" src="s.png"></button>
+        </form>
+ 
+    </div>
+    <script type="text/javascript" src="meme.js" ></script>
+</body>
+</html>
